@@ -16,9 +16,8 @@ export default function Hero() {
           className="w-full h-full object-cover"
         >
           <source 
-            src="https://assets.mixkit.co/videos/preview/mixkit-people-dancing-at-a-party-35498-large.mp4" 
-            type="video/mp4" 
-          />
+           src="https://URL_DE_TU_VIDEO.mp4" type="video/mp4" />
+          
           Tu navegador no soporta video.
         </video>
         {/* Overlay oscuro */}

@@ -5,6 +5,7 @@ import Activities from './components/Activities';
 import Gallery from './components/Gallery';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
+import VideoSection from './components/VideoSection'
 
 function App() {
   return (
