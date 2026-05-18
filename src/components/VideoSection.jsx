@@ -6,18 +6,17 @@ export default function VideoSection() {
           Conoce Más Sobre Nosotros 🎬
         </h2>
         
-        <div className="relative aspect-video rounded-2xl overflow-hidden shadow-2xl bg-black">
-          <video 
-            controls 
-            className="w-full h-full object-cover"
-            preload="metadata"
-          >
-            <source 
-              src="https://www.youtube.com/watch?v=c9X0hxGeVgI" 
-              type="video/mp4" 
-            />
-            Tu navegador no soporta videos HTML5.
-          </video>
+        <div className="relative w-full aspect-video rounded-2xl overflow-hidden shadow-2xl bg-black">
+          <iframe
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/ScMzIvxBSi4"
+            title="Video de Sociedad Re-kochera"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            className="w-full h-full"
+          ></iframe>
         </div>
         
         <p className="text-gray-300 text-center mt-6">
