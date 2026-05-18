@@ -6,14 +6,14 @@ export default function VideoSection() {
           Conoce Más Sobre Nosotros 🎬
         </h2>
         
-        <div className="relative aspect-video rounded-2xl overflow-hidden shadow-2xl">
+        <div className="relative aspect-video rounded-2xl overflow-hidden shadow-2xl bg-black">
           <video 
             controls 
-            className="w-full h-full"
-            poster="/images/video-thumbnail.jpg" // Imagen de portada opcional
+            className="w-full h-full object-cover"
+            preload="metadata"
           >
             <source 
-              src="https://www.youtube.com/watch?v=2jAxHjDCRjE" 
+              src="https://www.w3schools.com/html/mov_bbb.mp4" 
               type="video/mp4" 
             />
             Tu navegador no soporta videos HTML5.
