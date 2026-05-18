@@ -16,7 +16,7 @@ export default function Hero() {
           className="w-full h-full object-cover"
         >
           <source 
-           src="https://URL_DE_TU_VIDEO.mp4" type="video/mp4" />
+           src="https://www.youtube.com/watch?v=2jAxHjDCRjE" type="video/mp4" />
           
           Tu navegador no soporta video.
         </video>
