@@ -13,7 +13,7 @@ export default function VideoSection() {
             preload="metadata"
           >
             <source 
-              src="https://www.w3schools.com/html/mov_bbb.mp4" 
+              src="https://www.youtube.com/watch?v=2jAxHjDCRjE" 
               type="video/mp4" 
             />
             Tu navegador no soporta videos HTML5.
