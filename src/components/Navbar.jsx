@@ -7,6 +7,7 @@ export default function Navbar() {
   const navLinks = [
     { name: 'Inicio', href: '#hero' },
     { name: 'Nosotros', href: '#about' },
+    { name: 'Video', href: '#video' },
     { name: 'Actividades', href: '#calendar' },
     { name: 'Galería', href: '#gallery' },
     { name: 'Contacto', href: '#contact' },
