@@ -1,27 +1,30 @@
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import About from './components/About';
-import Activities from './components/Activities';
-import Gallery from './components/Gallery';
-import Footer from './components/Footer';
-import Contact from './components/Contact';
-import VideoSection from './components/VideoSection'
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import About from './components/About'
+import MissionVision from './components/MissionVision'
+import EventTable from './components/EventTable'
+import Clients from './components/Clients'
+import Testimonials from './components/Testimonials'
+import Activities from './components/Activities'
+import Gallery from './components/Gallery'
+import Contact from './components/Contact'
+import Footer from './components/Footer' // si lo tienes
 
 function App() {
   return (
-    <div className="min-h-screen bg-black text-white">
+    <>
       <Navbar />
       <Hero />
       <About />
-      <VideoSection />
+      <MissionVision />
+      <EventTable />
+      <Clients />
+      <Testimonials />
       <Activities />
       <Gallery />
-       <Contact />
+      <Contact />
       <Footer />
-     
-
-    </div>
-  );
+    </>
+  )
 }
-
-export default App;
+export default App
