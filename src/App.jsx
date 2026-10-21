@@ -3,9 +3,9 @@ import Hero from './components/Hero'
 import About from './components/About'
 import MissionVision from './components/MissionVision'
 import ServicesTable from './components/ServicesTable'
+import VideoSection from './components/VideoSection'
 import Clients from './components/Clients'
 import Testimonials from './components/Testimonials'
-import VideoSection from './components/VideoSection' // ✅ Agregado
 import Activities from './components/Activities'
 import Gallery from './components/Gallery'
 import Contact from './components/Contact'
@@ -19,9 +19,9 @@ function App() {
       <About />
       <MissionVision />
       <ServicesTable />
+      <VideoSection />
       <Clients />
       <Testimonials />
-      <VideoSection /> {/* ✅ Agregado aquí */}
       <Activities />
       <Gallery />
       <Contact />

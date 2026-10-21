@@ -1,6 +1,6 @@
 export default function VideoSection() {
   return (
-    <section className="py-16 px-4 bg-gray-900">
+    <section id="video" className="scroll-mt-20 py-16 px-4 bg-gray-900">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl font-bold text-center text-white mb-8">
           Conoce Más Sobre Nosotros 🎬
