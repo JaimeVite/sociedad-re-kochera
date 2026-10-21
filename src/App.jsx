@@ -5,6 +5,7 @@ import MissionVision from './components/MissionVision'
 import ServicesTable from './components/ServicesTable'
 import Clients from './components/Clients'
 import Testimonials from './components/Testimonials'
+import VideoSection from './components/VideoSection' // ✅ Agregado
 import Activities from './components/Activities'
 import Gallery from './components/Gallery'
 import Contact from './components/Contact'
@@ -20,6 +21,7 @@ function App() {
       <ServicesTable />
       <Clients />
       <Testimonials />
+      <VideoSection /> {/* ✅ Agregado aquí */}
       <Activities />
       <Gallery />
       <Contact />
