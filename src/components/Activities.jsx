@@ -13,7 +13,7 @@ const activities = [
     title: "Caminata Ecológica",
     date: "22 Jun 2026",
     time: "8:00 AM - 12:00 PM",
-    image: "https://images.unsplash.com/photo-1551632811-56f73b82f30b?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
     description: "Conecta con la naturaleza en nuestra ruta guiada por el parque local."
   },
   {
